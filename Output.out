@@ -1,0 +1,70 @@
+
+<parse> 
+<gettoken> ( <expresion> <termino> <factor> 
+<gettoken> ( <expresion> <termino> <factor> 
+<gettoken> 5 <expresion> <termino> <factor> <numero> <digito>
+<gettoken> 5 <digito>
+<gettoken> ) 
+<gettoken> ) 
+el parse fue escrito correctamente.
+
+<parse> 
+<gettoken> a hubo un error.
+
+<parse> 
+<gettoken> 3 
+<gettoken> * 
+<gettoken> 2 
+<gettoken> + 
+<gettoken> 4 
+<gettoken> * 
+<gettoken> 5 
+<gettoken> + 
+<gettoken> 1 
+hubo un error.
+
+<parse> 
+<gettoken> 3 
+<gettoken> * 
+<gettoken> ( 
+<gettoken> 4 
+<gettoken> + 
+<gettoken> 5 
+<gettoken> ) 
+<gettoken> * 
+<gettoken> ( 
+<gettoken> 6 
+<gettoken> + 
+<gettoken> 7 
+<gettoken> ) 
+hubo un error.
+
+<parse> 
+<gettoken> ( 
+<gettoken> 2 
+<gettoken> + 
+<gettoken> ( 
+<gettoken> 3 
+<gettoken> + 
+<gettoken> ( 
+<gettoken> 4 
+<gettoken> + 
+<gettoken> 5 
+<gettoken> ) 
+<gettoken> ) 
+<gettoken> ) 
+hubo un error.
+
+<parse> 
+<gettoken> ( 
+<gettoken> 2 
+<gettoken> + 
+<gettoken> 3 
+<gettoken> ) 
+<gettoken> * 
+hubo un error.
+
+<parse> 
+<gettoken> 2 
+<gettoken> + 
+hubo un error.
